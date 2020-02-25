@@ -12,8 +12,8 @@ def topo5():
     #Create a Mininet Environment
     net = Mininet()
 
-    #Create hosts and routers. Also create a switch in case we would like to use
-    #above method for sshd services
+    #Create hosts and routers. 
+    #Also create a switch in case we would like to use it for sshd services (optional)
     info( "Creating nodes\n" )
     #Create switch to use with sshd
     #s1 = net.addSwitch ( 's1' )
